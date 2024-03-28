@@ -7,9 +7,6 @@ import com.github.mikephil.charting.formatter.ValueFormatter
 import java.text.SimpleDateFormat
 import java.util.*
 
-/**
- * Created by Niraj on 18-09-2022.
- */
 class MpChartTimestampAxisFormatter() : ValueFormatter() {
 
 

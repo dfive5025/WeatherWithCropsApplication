@@ -12,9 +12,6 @@ import com.taru.data.local.db.plant.PlantSearchEntryEntity
 import com.taru.databinding.HomeCategoryItemBinding
 import com.taru.databinding.NavPlantsRecentItemBinding
 
-/**
- * Created by Niraj on 10-01-2023.
- */
 class RecentSearchAdapter(val mOnClick: (PlantRecentSearchEntity) -> Unit) : ListAdapter<PlantRecentSearchEntity, RecentSearchAdapter.ItemViewHolder>(PlantRecentSearchEntity.diffCallback) {
 
 

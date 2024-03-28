@@ -11,11 +11,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 
-/**
- * Created by Niraj on 20-11-2022.
- */
-// https://github.com/dgewe/Movie-App-Android/blob/master/app/src/main/java/com/fredrikbogg/movie_app/ui/BaseFragment.kt
-
 abstract class FragmentBase(private val backEnabled:  Boolean) : Fragment(){
 
    /* override fun onCreate(savedInstanceState: Bundle?) {

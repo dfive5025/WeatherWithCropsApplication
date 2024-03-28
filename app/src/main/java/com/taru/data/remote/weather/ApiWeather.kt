@@ -8,9 +8,6 @@ import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-/**
- * Created by Niraj on 17-01-2023.
- */
 interface ApiWeather {
 
 

@@ -2,9 +2,6 @@ package com.taru.ui.pages.slider
 
 import androidx.recyclerview.widget.DiffUtil
 
-/**
- * Created by Niraj on 13-02-2023.
- */
 data class ModelSliderImage(var id: Int, var image: String){
 
     companion object {

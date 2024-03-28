@@ -16,9 +16,6 @@ import com.taru.ui.pages.nav.home.NavHomeFragmentDirections
 import com.taru.ui.pages.scan.ScanViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
-/**
- * Created by Niraj on 28-01-2023.
- */
 @AndroidEntryPoint
 class ScanResultFragment: FragmentBase(true) {
 

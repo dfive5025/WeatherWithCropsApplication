@@ -7,9 +7,7 @@ import androidx.room.PrimaryKey
 import com.taru.data.local.db.location.LocationRoomEntity
 import retrofit2.http.Field
 
-/**
- * Created by Niraj on 30-01-2023.
- */
+
 @Entity(tableName = "PlantImages",
 
     indices=[Index("plantId"), Index("key")],

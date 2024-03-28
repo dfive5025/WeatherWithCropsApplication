@@ -2,9 +2,6 @@ package com.taru.tools.livedata
 
 import android.util.Log
 
-/**
- * Created by Niraj on 03-05-2021.
- */
 class LiveDataEvent<out T>(private val data: T) {
 
     var isConsumed = false

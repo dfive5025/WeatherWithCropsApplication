@@ -5,9 +5,6 @@ import com.taru.data.remote.weather.dto.inner.WeatherDto
 import com.taru.data.remote.weather.dto.inner.WeatherLocationDto
 import com.taru.data.remote.weather.dto.inner.WeatherMainDto
 
-/**
- * Created by Niraj on 17-01-2023.
- */
 @JsonClass(generateAdapter = true)
 data class WeatherCurrentDto(
     val id: Int,

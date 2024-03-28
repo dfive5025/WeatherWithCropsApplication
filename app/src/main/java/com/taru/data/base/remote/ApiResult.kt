@@ -1,8 +1,5 @@
 package com.taru.data.base.remote
 
-/**
- * Created by Niraj on 21-12-2022.
- */
 sealed interface ApiResult<T> {
 
     class Success<T>(val data: T) : ApiResult<T>

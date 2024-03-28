@@ -24,10 +24,6 @@ import java.io.IOException
 import java.util.Date
 import javax.inject.Inject
 
-/**
- * Created by Niraj on 22-01-2023.
- */
-
 // https://stackoverflow.com/questions/66813622/android-paging-3-loadtype-append-returns-null-remote-keys
 @OptIn(ExperimentalPagingApi::class)
 class PlantsSearchMediator @Inject constructor(

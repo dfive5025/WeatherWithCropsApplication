@@ -8,9 +8,7 @@ import okhttp3.RequestBody
 import retrofit2.Response
 import retrofit2.http.*
 
-/**
- * Created by Niraj on 26-01-2023.
- */
+
 interface ApiIdentify {
     @Multipart
     @POST("identify/{project}")

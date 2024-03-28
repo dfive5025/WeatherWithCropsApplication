@@ -12,9 +12,6 @@ import com.taru.tools.livedata.LiveDataObserver
 import com.taru.ui.base.FragmentBase
 import dagger.hilt.android.AndroidEntryPoint
 
-/**
- * Created by Niraj on 20-11-2022.
- */
 @AndroidEntryPoint
 class LabsFragmentMain : FragmentBase(true) {
 

@@ -15,9 +15,6 @@ import com.taru.ui.pages.nav.plants.recent.RecentPlantsAdapter
 import com.taru.ui.pages.nav.plants.recent.RecentSearchAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
-/**
- * Created by Niraj on 08-01-2023.
- */
 @AndroidEntryPoint
 class NavPlantsFragment: FragmentBase(false) {
     private val mViewModel: NavPlantsViewModel by viewModels()

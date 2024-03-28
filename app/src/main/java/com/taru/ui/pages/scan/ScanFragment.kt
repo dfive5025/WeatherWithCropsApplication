@@ -34,9 +34,6 @@ import dagger.hilt.android.AndroidEntryPoint
 import java.text.SimpleDateFormat
 import java.util.*
 
-/**
- * Created by Niraj on 11-01-2023.
- */
 @AndroidEntryPoint
 class ScanFragment : FragmentBase(true) {
 

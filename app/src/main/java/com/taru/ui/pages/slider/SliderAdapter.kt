@@ -12,9 +12,6 @@ import com.github.piasy.biv.view.ImageViewFactory
 import com.taru.databinding.SliderImageItemBinding
 
 
-/**
- * Created by Niraj on 13-02-2023.
- */
 class SliderAdapter: ListAdapter<ModelSliderImage, SliderAdapter.ItemViewHolder>(ModelSliderImage.diffCallback) {
 
     private val mViewFactory: ImageViewFactory = GlideImageViewFactory()

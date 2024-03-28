@@ -12,9 +12,6 @@ import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
 import dagger.hilt.components.SingletonComponent
 
-/**
- * Created by Niraj on 16-01-2023.
- */
 @Module
 @InstallIn(ViewModelComponent::class)
 abstract class RemoteDataModule {

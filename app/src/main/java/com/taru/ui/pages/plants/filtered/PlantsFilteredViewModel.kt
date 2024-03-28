@@ -11,9 +11,6 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-/**
- * Created by Niraj on 05-02-2023.
- */
 @HiltViewModel
 internal class PlantsFilteredViewModel  @Inject constructor(
     private val plantsByFilterUseCase: GetPlantsByFilterUseCase

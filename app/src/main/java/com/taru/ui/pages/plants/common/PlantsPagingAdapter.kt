@@ -11,10 +11,6 @@ import com.taru.data.local.db.plant.PlantSearchEntryEntity
 import com.taru.databinding.SearchPlantsItemBinding
 
 
-//import androidx.paging.PagingDataAdapter
-/**
- * Created by Niraj on 24-01-2023.
- */
 class PlantsPagingAdapter(val mOnClick: (PlantSearchEntryEntity) -> Unit) : PagingDataAdapter<PlantSearchEntryEntity, PlantsPagingAdapter.ItemViewHolder>(PlantSearchEntryEntity.diffCallback) {
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {

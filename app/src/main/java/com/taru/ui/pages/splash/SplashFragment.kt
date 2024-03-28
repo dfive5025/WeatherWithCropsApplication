@@ -16,9 +16,6 @@ import com.taru.ui.pages.weather.WeatherViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 
-/**
- * Created by Niraj on 18-02-2023.
- */
 @AndroidEntryPoint
 class SplashFragment : FragmentBase(false) {
 

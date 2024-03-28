@@ -19,9 +19,6 @@ import com.taru.ui.pages.nav.home.category.HomeCategoryAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
-/**
- * Created by Niraj on 08-01-2023.
- */
 @AndroidEntryPoint
 class NavHomeFragment : FragmentBase(false) {
     private val mViewModel: NavHomeViewModel by viewModels()

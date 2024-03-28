@@ -4,9 +4,7 @@ import androidx.room.Dao
 import androidx.room.Query
 import com.taru.data.local.db.base.RoomDaoBase
 
-/**
- * Created by Niraj on 26-01-2023.
- */
+
 @Dao
 interface IdentifyLogRoomDao: RoomDaoBase<IdentifyLogRoomEntity> {
 

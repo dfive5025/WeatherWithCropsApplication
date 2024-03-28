@@ -3,9 +3,6 @@ package com.taru.domain.glide
 import android.net.Uri
 import com.github.piasy.biv.loader.glide.GlideModel
 
-/**
- * Created by Niraj on 13-02-2023.
- */
 class CustomImageSizeModel: GlideModel {
     private var baseImageUrl: Uri? = null
 

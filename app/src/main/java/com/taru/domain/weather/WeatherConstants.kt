@@ -1,8 +1,5 @@
 package com.taru.domain.weather
 
-/**
- * Created by Niraj on 19-01-2023.
- */
 object WeatherConstants {
 
     const val CURRENT_REFRESH_PERIOD = 2 * 60 * 60

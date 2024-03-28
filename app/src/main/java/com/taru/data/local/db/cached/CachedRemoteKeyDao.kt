@@ -5,9 +5,7 @@ import androidx.room.Query
 import com.taru.data.local.db.base.RoomDaoBase
 import com.taru.data.local.db.weather.WeatherCurrentRoomEntity
 
-/**
- * Created by Niraj on 22-01-2023.
- */
+
 @Dao
 interface CachedRemoteKeyDao: RoomDaoBase<CachedRemoteKeyEntity> {
 

@@ -2,9 +2,6 @@ package com.taru.ui.pages.nav.plants.recent
 
 import androidx.recyclerview.widget.DiffUtil
 
-/**
- * Created by Niraj on 10-01-2023.
- */
 class ModelRecent(var id: Int) {
 
     companion object {

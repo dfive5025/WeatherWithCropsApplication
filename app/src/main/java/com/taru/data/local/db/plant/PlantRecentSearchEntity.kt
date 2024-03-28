@@ -5,9 +5,7 @@ import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
 
-/**
- * Created by Niraj on 25-01-2023.
- */
+
 @Entity(
     tableName = "PlantRecentSearch",
     indices = [Index(value = ["dt"]), Index(value = ["q"], unique = true)]

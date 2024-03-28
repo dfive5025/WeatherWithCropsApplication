@@ -24,9 +24,6 @@ import java.util.concurrent.TimeUnit
 import javax.inject.Named
 import javax.inject.Singleton
 
-/**
- * Created by Niraj on 16-01-2023.
- */
 @Module
 @InstallIn(SingletonComponent::class)
 object RetrofitModule {

@@ -9,9 +9,7 @@ import com.taru.data.remote.weather.dto.WeatherCurrentDto
 import com.taru.domain.identify.model.ModelIdentified
 import com.taru.domain.weather.WeatherConstants
 
-/**
- * Created by Niraj on 26-01-2023.
- */
+
 fun PlantIdentifyDto.toDomainModel(uri: Uri): ModelIdentified {
 
 

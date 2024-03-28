@@ -5,9 +5,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Update
 
-/**
- * Created by Niraj on 18-01-2023.
- */
+
 interface RoomDaoBase<T> {
     /**
      * Insert an object in the database.

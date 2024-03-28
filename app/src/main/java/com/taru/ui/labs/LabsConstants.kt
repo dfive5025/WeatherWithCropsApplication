@@ -1,8 +1,5 @@
 package com.taru.ui.labs
 
-/**
- * Created by Niraj on 20-11-2022.
- */
 object LabsConstants {
 
     object Navigation{

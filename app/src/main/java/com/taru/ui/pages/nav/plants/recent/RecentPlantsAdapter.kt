@@ -8,9 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.taru.data.local.db.plant.PlantEntity
 import com.taru.databinding.NavPlantsItemBinding
 
-/**
- * Created by Niraj on 14-02-2023.
- */
 class RecentPlantsAdapter(val mOnClick: (PlantEntity) -> Unit): ListAdapter<PlantEntity, RecentPlantsAdapter.ItemViewHolder>(
     PlantEntity.diffCallback) {
 

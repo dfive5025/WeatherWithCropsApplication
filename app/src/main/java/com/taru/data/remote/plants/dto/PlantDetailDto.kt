@@ -6,9 +6,7 @@ import com.taru.data.local.db.plant.PlantImageEntity
 import com.taru.data.remote.plants.dto.inner.*
 import retrofit2.http.Field
 
-/**
- * Created by Niraj on 30-01-2023.
- */
+
 
 @JsonClass(generateAdapter = true)
 data class PlantDetailDto(var id: Int,

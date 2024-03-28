@@ -11,9 +11,6 @@ import androidx.camera.core.CameraSelector
 import androidx.camera.core.CameraXConfig
 import dagger.hilt.android.HiltAndroidApp
 
-/**
- * Created by Niraj on 22-12-2022.
- */
 @HiltAndroidApp
 class App: Application(), CameraXConfig.Provider {
 

@@ -3,9 +3,6 @@ package com.taru.domain.chart
 import android.hardware.SensorManager
 import android.util.SparseIntArray
 
-/**
- * Created by Niraj on 07-02-2023.
- */
 class ChartConstants {
 
     val MAP_XAXIS_TYPE_TO_TIMESTAMP: SparseIntArray = object : SparseIntArray() {

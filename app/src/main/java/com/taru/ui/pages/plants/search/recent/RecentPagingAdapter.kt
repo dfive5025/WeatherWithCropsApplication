@@ -8,9 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.taru.data.local.db.plant.PlantRecentSearchEntity
 import com.taru.databinding.SearchAutocompleteItemBinding
 
-/**
- * Created by Niraj on 25-01-2023.
- */
 class RecentPagingAdapter (val mOnClick: (PlantRecentSearchEntity) -> Unit) : PagingDataAdapter<PlantRecentSearchEntity,
         RecentPagingAdapter.ItemViewHolder>(
     PlantRecentSearchEntity.diffCallback) {

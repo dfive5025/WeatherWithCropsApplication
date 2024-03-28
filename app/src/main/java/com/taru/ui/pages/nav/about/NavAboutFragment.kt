@@ -11,9 +11,6 @@ import com.taru.databinding.NavAboutFragmentBinding
 import com.taru.ui.base.FragmentBase
 import dagger.hilt.android.AndroidEntryPoint
 
-/**
- * Created by Niraj on 08-01-2023.
- */
 @AndroidEntryPoint
 class NavAboutFragment: FragmentBase(false) {
 

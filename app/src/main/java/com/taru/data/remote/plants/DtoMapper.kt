@@ -11,9 +11,6 @@ import com.taru.data.remote.plants.dto.inner.PlantImageDto
 import com.taru.data.remote.plants.dto.inner.PlantsSearchEntryDto
 import java.util.Calendar
 
-/**
- * Created by Niraj on 22-01-2023.
- */
 fun PlantsSearchEntryDto.toRoomEntity(position: Int, q: String): PlantSearchEntryEntity {
 
 //    val first = weather.firstOrNull()

@@ -10,9 +10,6 @@ import com.taru.R
 import com.taru.databinding.SearchPlantsItemBinding
 import com.taru.ui.pages.nav.plants.recommended.ModelPlant
 
-/**
- * Created by Niraj on 15-01-2023.
- */
 class SearchPlantsAdapter( val mOnClick: (ModelPlant) -> Unit) : ListAdapter<ModelPlant, SearchPlantsAdapter.ItemViewHolder>(
     ModelPlant.diffCallback) {
 

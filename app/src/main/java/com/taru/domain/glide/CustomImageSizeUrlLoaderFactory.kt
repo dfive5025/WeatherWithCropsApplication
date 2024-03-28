@@ -5,9 +5,6 @@ import com.bumptech.glide.load.model.*
 import java.io.InputStream
 
 
-/**
- * Created by Niraj on 13-02-2023.
- */
 class CustomImageSizeUrlLoaderFactory: ModelLoaderFactory<CustomImageSizeModel, InputStream> {
     private val modelCache: ModelCache<CustomImageSizeModel, GlideUrl> = ModelCache<CustomImageSizeModel, GlideUrl>(500)
 

@@ -7,9 +7,6 @@ import com.taru.domain.plant.repository.PlantRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-/**
- * Created by Niraj on 24-01-2023.
- */
 class DeleteAllPlantsUseCase  @Inject constructor(private var plantRepository: PlantRepository)  {
 
     suspend operator fun invoke( ): DomainResult<Unit> = plantRepository.clearData()

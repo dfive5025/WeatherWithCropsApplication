@@ -13,9 +13,6 @@ import android.provider.OpenableColumns
 import java.io.FileInputStream
 import java.io.FileOutputStream
 
-/**
- * Created by Niraj on 26-01-2023.
- */
 @Singleton
 class UriToFile @Inject constructor(@ApplicationContext var context: Context) {
 

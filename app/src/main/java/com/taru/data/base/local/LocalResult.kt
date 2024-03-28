@@ -1,8 +1,5 @@
 package com.taru.data.base.local
 
-/**
- * Created by Niraj on 21-12-2022.
- */
 sealed interface LocalResult<T> {
 
     class Success<T>(val data: T) : LocalResult<T>

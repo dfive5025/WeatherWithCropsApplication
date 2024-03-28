@@ -18,9 +18,6 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
-/**
- * Created by Niraj on 05-02-2023.
- */
 @AndroidEntryPoint
 class PlantsFilteredFragment : FragmentBase(true) {
 

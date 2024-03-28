@@ -19,9 +19,6 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 
 
-/**
- * Created by Niraj on 13-02-2023.
- */
 @AndroidEntryPoint
 class SliderFragment : FragmentBase(true) {
 

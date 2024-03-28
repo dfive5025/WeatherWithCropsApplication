@@ -24,9 +24,6 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
-/**
- * Created by Niraj on 14-01-2023.
- */
 @AndroidEntryPoint
 class SearchFragment : FragmentBase(true) {
 

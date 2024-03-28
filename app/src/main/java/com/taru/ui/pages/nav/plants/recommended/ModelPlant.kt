@@ -2,9 +2,6 @@ package com.taru.ui.pages.nav.plants.recommended
 
 import androidx.recyclerview.widget.DiffUtil
 
-/**
- * Created by Niraj on 10-01-2023.
- */
 data class ModelPlant(var id: Int){
 
     companion object {

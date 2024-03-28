@@ -6,9 +6,7 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 import com.taru.data.local.db.location.LocationRoomEntity
 
-/**
- * Created by Niraj on 20-01-2023.
- */
+
 @Entity(tableName = "WeatherForecast",
 
     indices=[Index("locationId"), Index("dt")],

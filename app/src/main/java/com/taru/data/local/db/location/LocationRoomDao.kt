@@ -4,9 +4,7 @@ import androidx.room.Dao
 import androidx.room.Query
 import com.taru.data.local.db.base.RoomDaoBase
 
-/**
- * Created by Niraj on 18-01-2023.
- */
+
 @Dao
 interface LocationRoomDao: RoomDaoBase<LocationRoomEntity> {
 

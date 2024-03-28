@@ -6,9 +6,7 @@ import com.taru.data.local.db.location.LocationRoomEntity
 import com.taru.data.local.db.weather.inner.WeatherAttrEntity
 import com.taru.data.local.db.weather.inner.WeatherSubEntity
 
-/**
- * Created by Niraj on 19-01-2023.
- */
+
 
 @Entity(tableName = "WeatherCurrent",
     indices=[Index("locationId"), Index("dt")],

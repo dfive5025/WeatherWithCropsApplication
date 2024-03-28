@@ -11,9 +11,7 @@ import com.taru.data.local.db.weather.inner.WeatherSubEntity
 import com.taru.data.remote.plants.dto.inner.PlantSpeciesDto
 import retrofit2.http.Field
 
-/**
- * Created by Niraj on 30-01-2023.
- */
+
 @Entity(tableName = "Plants",  indices = [ Index("lastQueriedDt")])
 data class PlantEntity(
     @PrimaryKey(autoGenerate = false)

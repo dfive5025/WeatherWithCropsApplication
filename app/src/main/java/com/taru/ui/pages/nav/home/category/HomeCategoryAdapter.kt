@@ -11,9 +11,6 @@ import com.taru.data.local.assets.entities.ModelCategory
 import com.taru.data.local.db.plant.PlantRecentSearchEntity
 import com.taru.databinding.HomeCategoryItemBinding
 
-/**
- * Created by Niraj on 09-01-2023.
- */
 class HomeCategoryAdapter(val mOnClick: (ModelCategory) -> Unit): ListAdapter<ModelCategory, HomeCategoryAdapter.ItemViewHolder>(ModelCategory.diffCallback) {
 
 

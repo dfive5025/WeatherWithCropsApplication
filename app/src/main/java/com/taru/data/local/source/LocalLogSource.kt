@@ -10,9 +10,7 @@ import java.util.Calendar
 import javax.inject.Inject
 import javax.inject.Singleton
 
-/**
- * Created by Niraj on 26-01-2023.
- */
+
 @Singleton
 class LocalLogSource @Inject constructor(
     private var identifyLogRoomDao: IdentifyLogRoomDao

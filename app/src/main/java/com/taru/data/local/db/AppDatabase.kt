@@ -13,9 +13,7 @@ import com.taru.data.local.db.log.IdentifyLogRoomEntity
 import com.taru.data.local.db.plant.*
 import com.taru.data.local.db.weather.*
 
-/**
- * Created by Niraj on 18-01-2023.
- */
+
 @Database(
     entities = [LocationRoomEntity::class,
         WeatherCurrentRoomEntity::class,

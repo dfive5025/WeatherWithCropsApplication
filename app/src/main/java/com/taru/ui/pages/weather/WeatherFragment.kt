@@ -28,9 +28,6 @@ import com.taru.tools.livedata.LiveDataObserver
 import com.taru.ui.base.FragmentBase
 import dagger.hilt.android.AndroidEntryPoint
 
-/**
- * Created by Niraj on 12-01-2023.
- */
 @AndroidEntryPoint
 class WeatherFragment : FragmentBase(true) {
 

@@ -6,9 +6,7 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 import com.taru.ui.pages.nav.plants.recommended.ModelPlant
 
-/**
- * Created by Niraj on 22-01-2023.
- */
+
 @Entity(tableName = "PlantsSearch", indices = [Index(value = ["index", "q"], unique = true)])
 data class PlantSearchEntryEntity(
     @PrimaryKey(autoGenerate = true)

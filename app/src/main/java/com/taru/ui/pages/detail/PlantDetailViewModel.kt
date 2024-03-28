@@ -14,9 +14,6 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-/**
- * Created by Niraj on 13-01-2023.
- */
 @HiltViewModel
 internal class PlantDetailViewModel @Inject constructor(
 

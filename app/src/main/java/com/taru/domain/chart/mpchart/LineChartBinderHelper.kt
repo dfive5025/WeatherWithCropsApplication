@@ -11,9 +11,6 @@ import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
 import com.taru.domain.chart.mpchart.entities.LineChartDataSetConfig
 import java.util.Calendar
 
-/**
- * Created by Niraj on 07-02-2023.
- */
 class LineChartBinderHelper {
 
     fun update(chart: LineChart,   dts: List<Int>, values: List<FloatArray>,) : Boolean {

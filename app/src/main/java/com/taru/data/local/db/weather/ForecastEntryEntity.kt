@@ -4,9 +4,7 @@ import androidx.room.*
 import com.taru.data.local.db.weather.inner.WeatherAttrEntity
 import com.taru.data.local.db.weather.inner.WeatherSubEntity
 
-/**
- * Created by Niraj on 20-01-2023.
- */
+
 
 @Entity(
     tableName = "ForecastEntry",

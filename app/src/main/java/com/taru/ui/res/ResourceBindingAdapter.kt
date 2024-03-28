@@ -6,9 +6,6 @@ import androidx.databinding.BindingAdapter
 import coil.load
 import com.taru.R
 
-/**
- * Created by Niraj on 28-01-2023.
- */
 object ResourceBindingAdapter {
     @BindingAdapter("app:bindCoilSrc")
     @JvmStatic

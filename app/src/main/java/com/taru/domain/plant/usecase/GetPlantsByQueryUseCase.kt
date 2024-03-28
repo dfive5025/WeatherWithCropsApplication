@@ -10,9 +10,6 @@ import com.taru.domain.weather.repository.WeatherRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-/**
- * Created by Niraj on 23-01-2023.
- */
 
 internal class GetPlantsByQueryUseCase  @Inject constructor(private var plantRepository: PlantRepository)  {
 

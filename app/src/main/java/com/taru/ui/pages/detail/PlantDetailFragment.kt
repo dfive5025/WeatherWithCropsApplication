@@ -14,9 +14,6 @@ import com.taru.databinding.PlantDetailFragmentBinding
 import com.taru.ui.base.FragmentBase
 import dagger.hilt.android.AndroidEntryPoint
 
-/**
- * Created by Niraj on 13-01-2023.
- */
 @AndroidEntryPoint
 class PlantDetailFragment: FragmentBase(true) {
 

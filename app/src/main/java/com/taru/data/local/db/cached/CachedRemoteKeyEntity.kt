@@ -4,9 +4,7 @@ import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
 
-/**
- * Created by Niraj on 22-01-2023.
- */
+
 
 @Entity(tableName = "CachedRemoteKey", indices = [Index(value = ["q", "refId", "refType"], unique = true)])
 data class CachedRemoteKeyEntity(

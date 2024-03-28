@@ -6,9 +6,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
-/**
- * Created by Niraj on 22-01-2023.
- */
 class RemotePlantsSource @Inject constructor(
     var apiPlants: ApiPlants
 ){

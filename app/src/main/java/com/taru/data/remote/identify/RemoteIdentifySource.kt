@@ -15,9 +15,7 @@ import okhttp3.RequestBody.Companion.toRequestBody
 import java.io.File
 import javax.inject.Inject
 
-/**
- * Created by Niraj on 26-01-2023.
- */
+
 class RemoteIdentifySource @Inject constructor(
     var apiIdentify: ApiIdentify,
     val uriToFile: UriToFile

@@ -14,12 +14,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-/**
- * Created by Niraj on 14-01-2023.
- */
 
-// https://github.com/ersiver/Newsster/blob/master/app/src/main/java/com/ersiver/newsster/ui/list/ArticleListViewModel.kt
-// https://proandroiddev.com/google-news-clone-in-kotlin-using-paging-3-and-hilt-2127d19fe09d
 @HiltViewModel
 internal class SearchViewModel @Inject constructor(
     private val plantsByQueryUseCase: GetPlantsByQueryUseCase,

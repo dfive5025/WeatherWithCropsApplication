@@ -5,9 +5,7 @@ import androidx.room.Query
 import androidx.room.Transaction
 import com.taru.data.local.db.base.RoomDaoBase
 
-/**
- * Created by Niraj on 30-01-2023.
- */
+
 @Dao
 interface PlantDetailDao : RoomDaoBase<PlantEntity>  {
 

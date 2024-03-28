@@ -14,9 +14,6 @@ import kotlinx.coroutines.launch
 import java.util.*
 import javax.inject.Inject
 
-/**
- * Created by Niraj on 20-11-2022.
- */
 @HiltViewModel
 class LabsMainViewModel @Inject constructor(
     private val deleteAllPlantsUseCase: DeleteAllPlantsUseCase,

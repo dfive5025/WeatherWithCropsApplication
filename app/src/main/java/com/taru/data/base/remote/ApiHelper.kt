@@ -3,9 +3,6 @@ package com.taru.data.base.remote
 import retrofit2.HttpException
 import retrofit2.Response
 
-/**
- * Created by Niraj on 16-01-2023.
- */
 
 suspend fun <T : Any> handleApi(
     execute: suspend () -> Response<T>

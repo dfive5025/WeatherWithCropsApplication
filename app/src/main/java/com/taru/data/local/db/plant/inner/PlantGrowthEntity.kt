@@ -4,9 +4,7 @@ import androidx.room.Entity
 import androidx.room.Index
 import retrofit2.http.Field
 
-/**
- * Created by Niraj on 30-01-2023.
- */
+
 
 data class PlantGrowthEntity( var phMaximum: Float?,
                               var phMinimum: Float?,

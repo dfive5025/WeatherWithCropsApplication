@@ -8,9 +8,6 @@ import com.bumptech.glide.module.AppGlideModule
 import java.io.InputStream
 
 
-/**
- * Created by Niraj on 13-02-2023.
- */
 @GlideModule
 class TaruGlideModule: AppGlideModule() {
     override fun isManifestParsingEnabled(): Boolean {

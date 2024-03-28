@@ -12,9 +12,6 @@ import com.taru.tools.livedata.LiveDataObserver
 import com.taru.ui.base.FragmentBase
 import dagger.hilt.android.AndroidEntryPoint
 
-/**
- * Created by Niraj on 08-01-2023.
- */
 @AndroidEntryPoint
 class NavCureFragment: FragmentBase(false) {
     private val mViewModel: NavCureViewModel by viewModels()

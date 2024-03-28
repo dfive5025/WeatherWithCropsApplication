@@ -10,9 +10,6 @@ import com.taru.data.local.db.plant.PlantSearchEntryEntity
 import com.taru.domain.base.result.DomainResult
 import kotlinx.coroutines.flow.Flow
 
-/**
- * Created by Niraj on 22-01-2023.
- */
 interface PlantRepository {
     fun searchPaginated(q: String): Flow<PagingData<PlantSearchEntryEntity>>
     fun filterPaginated(filterForEdible: Boolean, q: String): Flow<PagingData<PlantSearchEntryEntity>>

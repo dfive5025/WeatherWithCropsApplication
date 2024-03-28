@@ -29,9 +29,6 @@ import kotlinx.coroutines.withContext
 import javax.inject.Inject
 import javax.inject.Singleton
 
-/**
- * Created by Niraj on 23-01-2023.
- */
 @Singleton
 class DefaultPlantRepository @Inject constructor(
     private val remotePlantsSource: RemotePlantsSource,

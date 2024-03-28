@@ -13,9 +13,6 @@ import java.util.*
 import kotlin.math.max
 import kotlin.math.min
 
-/**
- * Created by Niraj on 17-01-2023.
- */
 
 fun WeatherCurrentDto.toRoomEntity(locationId: Int): WeatherCurrentRoomEntity {
 

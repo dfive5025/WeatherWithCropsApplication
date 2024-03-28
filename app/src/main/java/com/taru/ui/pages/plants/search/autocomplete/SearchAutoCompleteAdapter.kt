@@ -10,9 +10,6 @@ import com.taru.R
 import com.taru.databinding.SearchAutocompleteItemBinding
 import com.taru.ui.pages.nav.plants.recent.ModelRecent
 
-/**
- * Created by Niraj on 15-01-2023.
- */
 class SearchAutoCompleteAdapter ( val mOnClick: (ModelRecent) -> Unit) : ListAdapter<ModelRecent, SearchAutoCompleteAdapter.ItemViewHolder>(ModelRecent.diffCallback) {
 
 
